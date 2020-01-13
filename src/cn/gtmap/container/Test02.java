@@ -15,7 +15,7 @@ public class Test02 {
 		d.setSize(400,300);
 		d.setLocation(200, 200);
 		d.setLayout(null);
-		
+		 
 		JButton b = new JButton("一键秒对方基地挂");
 		b.setBounds(50,50,280,30);
 		
