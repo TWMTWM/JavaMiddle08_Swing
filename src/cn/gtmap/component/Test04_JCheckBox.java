@@ -1,5 +1,6 @@
 package cn.gtmap.component;
 
+import javax.swing.ButtonGroup;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 
@@ -25,6 +26,13 @@ public class Test04_JCheckBox {
 		
 		//判断是否被选中
 		System.out.println(bCheckBox2.isSelected());
+		
+		/**
+		 * 复选框放在一个分组中只能选中一个！！
+		 */
+		//ButtonGroup bg = new ButtonGroup();
+		//bg.add(bCheckBox);
+		//bg.add(bCheckBox2);
 		
 		f.add(bCheckBox);
 		f.add(bCheckBox2);
