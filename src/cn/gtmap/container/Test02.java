@@ -10,6 +10,7 @@ import javax.swing.JDialog;
  */
 public class Test02 {
 	public static void main(String[] args) {
+		//普通的窗体，带最大和最小化按钮，而对话框却不带
 		JDialog d = new JDialog();
 		d.setTitle("LoL");
 		d.setSize(400,300);
