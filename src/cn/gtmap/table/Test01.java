@@ -5,7 +5,7 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JTable;
 
-/**
+/** 
  * 基本表格
  *	显示一个Table需要两组数据 
  *	1. 一维数组： String[]columnNames 表示表格的标题 
