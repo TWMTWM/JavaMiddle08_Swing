@@ -20,6 +20,11 @@ import cn.gtmap.table.table_model.Hero;
 import cn.gtmap.table.table_model.HeroDAO;
 import cn.gtmap.table.table_model.HeroTableModel;
 
+/**
+ * 删除
+ * 	提供一个删除按钮，点击删除按钮之后，删除选中的行，并且刷新table中的数据，然后再默认选中第一行。
+ * 	如果点击删除的时候，没有任何行被选中，则提示“删除前应该选中一行”
+ */
 public class Test02_Delete {
     //把 htm和 table设计为静态，后面在更新表格数据的时候，就很容易访问这个两个对象
     static HeroTableModel htm = new HeroTableModel();
