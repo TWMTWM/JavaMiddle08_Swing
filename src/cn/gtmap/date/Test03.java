@@ -35,7 +35,7 @@ public class Test03 {
    
         f.add(datepick);
    
-        JButton b = new JButton("统计在D:/eclipse3.1 目录下，修改时间大于控件日期的文件总数");
+        JButton b = new JButton("统计在e:/project 目录下，修改时间大于控件日期的文件总数");
         b.setBounds(20, 183, 450, 30);
         f.add(b);
    
