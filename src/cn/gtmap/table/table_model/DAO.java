@@ -15,4 +15,6 @@ public interface DAO {
 	public List<Hero> list();
 	//·ÖÒ³²éÑ¯
 	public List<Hero> list(int start,int count);
+	
+	public int getTotal();
 }

@@ -25,6 +25,26 @@ public class HeroDAO implements DAO {
 		
 	}
 	
+	public int getTotal(){
+		int total = 0;
+		try(
+				Connection c = getConnection();
+				Statement s = c.createStatement();
+			)
+		{
+			String sql = "select count(*) from hero";
+			
+			ResultSet rs = s.executeQuery(sql);
+			while(rs.next()){
+				total = rs.getInt(1);
+			}
+			System.out.println("total:" + total);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return total;
+	}
+	
 	@Override
 	public void add(Hero hero) {
 		String sql = "insert into hero values(null,?,?,?)";
