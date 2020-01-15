@@ -5,5 +5,11 @@
 	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/datepicker.jar"/>
 	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/swingx-core-1.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/alloy.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/JTattoo.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/JTattooDemo.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/liquidlnf.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/substance.jar"/>
+	<classpathentry kind="lib" path="E:/project/JavaMiddle08_Swing/lib/trident.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
